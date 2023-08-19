@@ -1,0 +1,86 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "hii"
+      ],
+      "responses": [
+
+
+        "Hi there,Welcome to Trinity Academy Of Engineering,Pune , how can I help You?"
+
+      ]
+    },
+
+
+    {
+      "tag": "items",
+      "patterns": [
+        "which course do you have?"
+
+      ],
+      "responses": [
+        "We offer 6 UnderGraduate and 2 Post graduate courses! type the course you want to enroll UG or PG"
+      ]
+    },
+    {
+    "tag": "courses",
+    "patterns": [
+        "UG",
+         "ug",
+          "Ug",
+          "uG"
+
+      ],
+      "responses": [
+        "We offer 6 UnderGraduate  courses   1}Computer engineering   2}Information Technology engineering   3}Electronics And Telecommunication engineering  4}Civil engineering  5}Mechamical engineering   6}Electrical Engineering"
+      ]
+    },
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "what is the fees for ug?"
+      ],
+      "responses": [
+        "If you are cap Student then Fees For UG courses is 90,000 and PG courses is 90,000"
+      ]
+    },
+
+
+
+    {
+      "tag": "exit",
+      "patterns": [
+        "Thank You",
+        "thank You",
+        "thank you",
+        "thank you"
+
+      ],
+      "responses": [
+        "Glad to Help You,Thanks For visiting ,Greetings from Trinity Academy Of Engineering,Pune"
+
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
